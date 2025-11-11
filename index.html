@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Coin Game Starter</title>
-  <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💫 Coin Collector Deluxe</title>
+  <link rel="stylesheet" href="app.css" />
 </head>
-
 <body>
-  <h1 id="score"></h1>
-  <img id="player" src="https://media.tenor.com/images/0791eb3858075aca85eed5ecfe08c778/tenor.gif" alt="">
-  <img id="coin" src="https://gifdb.com/images/high/spinning-gold-coin-aosridh0i5u9g7za.webp" alt="">
+  <div id="game-container">
+    <h1 id="score">Score: 0</h1>
+    <h2 id="message"></h2>
+    <button id="startBtn">Start Game</button>
+    <button id="restartBtn" style="display:none;">Restart</button>
+
+    <img id="player" src="https://media.tenor.com/images/0791eb3858075aca85eed5ecfe08c778/tenor.gif" alt="player" />
+    <img id="coin" src="https://gifdb.com/images/high/spinning-gold-coin-aosridh0i5u9g7za.webp" alt="coin" />
+  </div>
+
+  <audio id="coinSound" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg"></audio>
+  <audio id="winSound" src="https://actions.google.com/sounds/v1/cartoon/congratulations.ogg"></audio>
+  <audio id="bgMusic" src="https://actions.google.com/sounds/v1/ambiences/space.ogg" loop></audio>
+
   <script src="app.js"></script>
 </body>
-
 </html>
