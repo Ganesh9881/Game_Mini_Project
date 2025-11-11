@@ -20,15 +20,12 @@ A fun and interactive browser-based game built using **HTML**, **CSS**, and **Ja
 
 ---
 
-https://ganesh9881.github.io/Game_Mini_Project/
-
 🎮 Play the Game
 
 Hey there! 👋
 Ready to have some fun? Click the link below to play my mini game and enjoy the experience!
 
 https://ganesh9881.github.io/Game_Mini_Project/
-
 
 👉 Play the Game Here!
 
