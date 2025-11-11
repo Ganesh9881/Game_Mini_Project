@@ -28,5 +28,6 @@ Ready to have some fun? Click the link below to play my mini game and enjoy the 
 
 
 👉 Play the Game Here!
+https://ganesh9881.github.io/Game_Mini_Project/
 
 Have fun, and don’t forget to share your feedback! 😄
